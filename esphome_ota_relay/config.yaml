@@ -1,0 +1,25 @@
+name: ESPHome OTA Relay
+version: 0.1.0
+slug: esphome_ota_relay
+description: Receives a precompiled ESPHome OTA image and flashes a device on the local network.
+url: https://github.com/VelloMagu/esphome-ota-relay
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+init: false
+host_network: true
+map:
+  - config:ro
+options:
+  token: ""
+  port: 8096
+  devices: []
+schema:
+  token: password
+  port: port
+  devices:
+    - name: str
+      host: str
+      encryption_key: str?
