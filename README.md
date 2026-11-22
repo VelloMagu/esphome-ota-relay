@@ -1,16 +1,6 @@
 # ESPHome OTA Relay
 
-<p>
-  <a href="https://www.home-assistant.io/integrations/esphome/">
-    <img src="https://brands.home-assistant.io/homeassistant/logo.png" alt="Home Assistant" height="48">
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://esphome.io/components/ota/esphome/">
-    <img src="https://brands.home-assistant.io/esphome/logo.png" alt="ESPHome" height="48">
-  </a>
-</p>
-
-Home Assistant add-on. It accepts a firmware image that was compiled on another computer and flashes an ESPHome device on the Home Assistant LAN. Device addresses and noise keys come from the [ESPHome integration](https://www.home-assistant.io/integrations/esphome/). The upload uses the [ESPHome OTA](https://esphome.io/components/ota/esphome/) protocol.
+Home Assistant add-on. It accepts a firmware image that was compiled on another computer and flashes an ESPHome device on the Home Assistant LAN.
 
 ## Install
 
